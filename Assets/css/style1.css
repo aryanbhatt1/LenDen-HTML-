@@ -1,0 +1,159 @@
+body{
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url("../Vendor/font/Montserrat-Regular/Montserrat-Regular.woff");
+}
+@font-face {
+    font-family: Helvetica;
+    src: url("../Vendor/font/Helvetica/helvetica.woff");
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #26d7ab ;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #26d7ab ;
+}
+.navbar{
+    background-color: white;
+}
+.navbar-brand {
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-img{
+    width: 55px;
+    display: inline-block;
+    float:left;
+}
+h1{
+    font-family: Helvetica;
+}
+h5{
+    font-family: Helvetica;
+}
+h6{
+    font-family: Helvetica;
+}
+h2{
+    font-family: Helvetica;
+    font-size: large;
+    margin: 0px;
+    line-height: 1.5;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.logo-title{
+    padding-top: 8px;
+    padding-left: 60px;
+    color:#464646;
+}
+.btn-primary{
+    width: 175px;
+    height: 45px;
+    font-size: 16px;
+    background-color:#00d09c !important;
+    border-color: #00d09c !important;
+    margin-right: 200px;
+}
+.btn-primary-title{
+    padding-top: 2px;
+}
+.btn-primary:hover{
+    width: 175px;
+    height: 45px;
+    font-size: 16px;
+    border: 1px solid #26d7ab !important;
+    background-color: transparent !important;
+    color: #26d7ab !important;
+    margin-right: 200px;
+}
+.row{
+    padding-top: 85px;
+}
+
+@media screen and (max-width: 600px) {
+    .column-content {
+        width: 100%;
+    }
+}
+.homepage-img{
+    float:right;
+}
+.homepage-img2{
+    float:left;
+    margin-left: 10px;
+}
+.homepage-img3{
+    float: right;
+}
+.desc-moneylend-h1{
+    text-align: center;
+    float: left;
+    margin-left: 110px;
+    margin-top: 120px;
+}
+.desc-moneylend-h5{
+    text-align: center;
+    float:left;
+    margin-top: 20px;
+}
+.dashboard-h5{
+    text-align: center;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+.dashboard-h1{
+    text-align: center;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+.borrowing-h1{
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 60px;
+}
+.borrowing-h5{
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+.lending-h1{
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 40px;
+}
+.lending-h5{
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+.borrow-lend{
+    margin-top: 20px;
+}
+.one-text{
+    color: #26d7ab;
+}
+i {
+    display: inline-block;
+    margin-right: 1em;
+}
+footer{
+    background-color: #effff6;
+}
+i:hover{
+    color:#26d7ab;
+}
+p{
+    text-align: center;
+}
