@@ -1,6 +1,23 @@
 body{
     background: url("../images/login-background.png");
 }
+@font-face {
+    font-family: Helvetica;
+    src: url("../Vendor/font/Helvetica/helvetica.woff");
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #26d7ab ;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #26d7ab ;
+}
 .brand-wrapper {
     margin-bottom: 19px; }
 .brand-wrapper .logo {
@@ -9,7 +26,23 @@ body{
 .login-card {
     border: 0;
     border-radius: 27.5px;
-    overflow: hidden; }
+    overflow: hidden;
+}
+.logo-img{
+    width: 65px;
+    display: inline-block;
+    padding-bottom: 18px;
+    padding-right: 10px;
+}
+.logo-title {
+    display: inline-block;
+    color: #464646;
+    padding-bottom: 20px;
+}
+.logo-body{
+    width: 200px;
+    margin-left: 60px;
+}
 .login-card-img {
     border-radius: 0;
     position: absolute;
@@ -18,7 +51,9 @@ body{
     -o-object-fit: cover;
     object-fit: cover; }
 .login-card .card-body {
-    padding: 85px 60px 60px; }
+    padding: 85px 60px 60px;
+    padding-left: 175px;
+    }
 @media (max-width: 422px) {
     .login-card .card-body {
         padding: 35px 24px; } }
@@ -26,7 +61,10 @@ body{
     font-size: 25px;
     color: #191919;
     font-weight: normal;
-    margin-bottom: 23px; }
+    margin-bottom: 23px;
+    text-align: center;
+    padding-right: 70px;
+}
 .login-card form {
     max-width: 326px; }
 .login-card .form-control {
@@ -80,3 +118,11 @@ body{
     bottom: 1rem;
     text-align: center;
     width: 100%; }
+h2{
+    font-family: Helvetica;
+    font-size: large;
+    margin: 0px;
+    line-height: 1.5;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
